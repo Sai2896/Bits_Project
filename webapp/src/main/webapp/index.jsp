@@ -4,7 +4,7 @@
     <p>Please fill the below form to create an account.</p>
     <hr>
      
-    <label for="Name"><b>Name</b></label>
+    <label for="Name"><b>Nme</b></label>
     <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
     <br>
     
@@ -24,7 +24,7 @@
     <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
     <hr>
     <br>
-    <p>By clicking on register you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <p>By clicking on register you agree to our <a href="#">Terms & Conditions</a>.</p>
     <button type="submit" class="registerbtn">Register</button>
   </div>
   <div class="container signin">
