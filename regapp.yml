@@ -1,0 +1,14 @@
+---
+- hosts: ansible
+
+  tasks:
+  - name: image building
+    command: docker build -t regapp:latest .
+    args:
+     chdir: /opt/docker
+
+  - name: image retagging
+    command: docker tag regapp:latest krish2810/regapp:latest
+
+  - name: image pushing
+    command: docker push krish2810/regapp:latest
