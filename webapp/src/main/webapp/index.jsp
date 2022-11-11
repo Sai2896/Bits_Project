@@ -4,7 +4,7 @@
     <p>Please fill the below form to create an account.</p>
     <hr>
      
-    <label for="Name"><b>Nme</b></label>
+    <label for="Name"><b>Name</b></label>
     <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
     <br>
     
@@ -12,7 +12,7 @@
     <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
     <br>
 
-    <label for="email"><b>Email ID</b></label>
+    <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
     <br>
 
@@ -31,5 +31,5 @@
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 
-  
+   <h1>Adding a new change for the build to trigger</h1>
 </form>
