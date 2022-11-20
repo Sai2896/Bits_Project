@@ -4,7 +4,7 @@
     <p>Please fill the below form to create an account.</p>
     <hr>
      
-    <label for="Name"><b>Name</b></label>
+    <label for="Name"><b>User Name</b></label>
     <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
     <br>
     
@@ -30,6 +30,4 @@
   <div class="container signin">
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
-
-   <h1>Adding a new change for the build to trigger</h1>
 </form>
