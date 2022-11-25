@@ -8,3 +8,6 @@
 
   - name: create service for regapp
     command: kubectl apply -f regapp-service.yml
+    
+  - name: rollout for new update
+    command: kubectl rollout restart deployment.apps/user-regapp
