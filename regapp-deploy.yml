@@ -1,7 +1,7 @@
 apiVersion: apps/v1 
 kind: Deployment
 metadata:
-  name: user-regapp
+  name: new-change-regapp
   labels: 
      app: regapp
 
